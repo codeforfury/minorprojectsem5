@@ -1,0 +1,101 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1
+{
+    padding: 20px;
+    font-family: Arial;
+    font-size: 2rem;
+}
+
+h3
+{
+    padding: 5px;
+    font-family: Arial;
+    font-size: 1.2rem;
+    color: rgb(64, 64, 64);
+}
+
+.container
+{
+    border-radius: 10px;
+    background-color: rgb(225, 222, 222);
+    margin: 140px auto;
+    text-align: center;
+    justify-content: center;
+    height: 450px;
+    width: 500px;
+
+}
+
+table
+{
+    font-size: 20px;
+    margin: auto;
+    padding: 15px;
+}
+
+input[type=email],Input[type=password]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(40, 88, 4);
+  border-radius: 100px;
+  box-shadow: rgb(0, 0, 0);
+  /* transition: .5s ease; */
+}
+
+/* input[type=email],Input[type=password]:hover
+{
+    transform:scale(1.1);
+} */
+
+input[type=submit] 
+{
+    background-color: #027349;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 0;
+    cursor: pointer;
+    border: 2px solid rgb(40, 88, 4);
+    border-radius: 100px;
+    transition: .5s ease;
+}
+
+input[type=submit]:hover
+{
+    box-shadow: rgb(218, 6, 6);
+}
+
+p
+{
+    color: black;
+    font-family: Arial;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.signup,.forgotpassword
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    font-weight: bolder;
+    color:black;
+}
+
+a:hover
+{
+    border-bottom: 2px solid black;
+    color: rgb(8, 51, 169);
+}

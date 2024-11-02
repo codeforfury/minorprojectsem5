@@ -1,0 +1,204 @@
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo
+{
+    margin-left: 20px;
+    color: rgb(14, 14, 14);
+    font-family: 'Gill Sans MT';
+}
+
+h1
+{
+    font-size: 2.5rem;
+}
+
+h2
+{
+    font-size: 2.4rem;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+h3
+{
+    font-size: 1.5rem;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+
+.container
+{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-inline: auto;
+    background-color: #f4e9e9;
+    position: fixed;
+    z-index: 1;
+}
+/* rgb(216, 246, 216) */
+.main-nav
+{
+    justify-content: space-between;
+}
+
+.nav-links
+{
+    flex-basis: 730px;
+    margin-right:50px;
+}
+
+.nav-links ul
+{
+    list-style: none;
+    justify-content: end;
+    gap:40px;
+}
+
+a
+{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    color: black;
+    font-weight: 500;
+}
+
+.normalanchor:hover
+{
+    border-bottom: 3px solid rgb(0, 77, 102);
+    color: rgb(0, 77, 102);
+}
+
+.secondary-button
+{
+    background-color: white;
+    color: black;
+    border: 2px solid #071f31;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    box-shadow: 0 0 2px gainsboro;
+    transition: .5s ease;
+}
+
+.primary-button
+{
+    background-color: #071f31;
+    border-radius: 5px;
+    color: White;
+    padding: 10px;
+    font-weight: 600;
+    box-shadow: 0 0 2px gainsboro;
+    transition: .5s ease;  
+}
+
+.button:hover
+{
+    border-radius: 100px;
+}
+
+
+/* css on main */
+.elements
+{
+    display: flex;
+    margin: 100px;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.images
+{
+    display: block;
+    height: 400px;
+    width: 500px;
+    border: 3px solid rgb(129, 121, 121);
+    border-radius: 20px;
+}
+
+.writting
+{
+    height: 400px;
+    width: 500px;
+    text-align: justify;
+    padding: 40px;
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+hr
+{
+    width: 5px;
+    background-color: rgb(3, 3, 53);
+}
+
+/*Footer Part*/
+footer
+{
+    background-color: black;
+    color:white;
+    font-family: Arial;
+}
+
+footer > h2
+{
+    margin-left: 100px;
+    padding-top: 40px;
+}
+
+footer > p
+{
+    margin-left: 100px;
+}
+
+.footercontainer
+{
+    display:flex;
+    margin-left:100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    gap:100px;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.footerchild > h3
+{
+    font-size: 1.8rem;
+    border-bottom: 1px solid white;
+    border-spacing: 5px;
+}
+
+.footerchild > ul 
+{
+        list-style: none;
+        margin-top: 10px;
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Adjust as needed */
+}
+
+.footerchild > li
+{
+    font-size: 1.5rem;
+}
+
+.copyright
+{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
